@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "iti whatsapp task",
+    "version": "1.0",
+    "description": "whatsapp automation",
+    "icons": {
+        "16": "images/icons8-c-programming-16.png",
+        "32": "images/icons8-c-programming-32.png",
+        "48": "images/icons8-c-programming-48.png",
+        "128": "images/icons8-c-programming-128.png"
+      },
+      "content_scripts": [
+        {
+          "js": ["pressbutton.js"],
+          "matches": [
+            "https://web.whatsapp.com/*" 
+          ]
+        }
+      ]
+    }
+  
